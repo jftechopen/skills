@@ -176,8 +176,8 @@ curl ... -H "timeMillis: $TIME_MILLIS" -H "signature: $SIGNATURE"
 
 ```bash
 # ❌ 错误！
-TIME_MILLIS="00000011779934419681"  # 旧的 timeMillis
-SIGNATURE="5f421f35d6c8321e312b46b96fc9c610"  # 旧的 signature
+TIME_MILLIS="old_timeMillis"  # 旧的 timeMillis
+SIGNATURE="old_signature"  # 旧的 signature
 curl ... -H "timeMillis: $TIME_MILLIS" -H "signature: $SIGNATURE"  # 第一次调用
 curl ... -H "timeMillis: $TIME_MILLIS" -H "signature: $SIGNATURE"  # 第二次调用 - 错误！
 ```
