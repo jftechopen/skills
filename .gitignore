@@ -1,0 +1,47 @@
+# 根目录 scripts
+/scripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 环境变量与敏感信息
+.env
+.env.local
+*.key
+*.pem
+
+# 日志
+*.log
+logs/
+
+# 测试与覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
